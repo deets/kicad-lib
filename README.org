@@ -1,0 +1,28 @@
+* deets KiCAD library
+
+This is my personal component library with boards and componenents I
+have used in various projects so far.
+
+** How to add to a project
+
+My approach is by hand, as in /I write code, so I use a text-editor
+for this/.
+
+First I add a submodule:
+
+#+begin_src bash
+$ git submodule init
+$ mkdir modules
+$ cd modules
+$ git submodule add https://github.com/deets/kicad-lib
+#+end_src
+
+Then I place the following entry into the =sym-lib-table= file in a project root:
+
+#+begin_src lisp
+(sym_lib_table
+  (lib (name deets)(type Legacy)(uri ${KIPRJMOD}/modules/kicad-lib/deets.lib)(options "")(descr ""))
+)
+#+end_src
+
+
