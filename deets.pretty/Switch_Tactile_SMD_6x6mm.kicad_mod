@@ -1,4 +1,4 @@
-(module Switch_Tactile_SMD_6x6mm (layer F.Cu) (tedit 5C8CFD87)
+(module Switch_Tactile_SMD_6x6mm (layer F.Cu) (tedit 5C8CFEB2)
   (fp_text reference REF** (at -0.03 -4.69) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
